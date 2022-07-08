@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+.logo-docplanner {
+  width: 180px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+}
+header nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+}
+header a {
+  text-decoration-line: none;
+  color: #00b39b;
+}
+header nav ul li {
+  text-decoration-line: none;
+  color: #747474;
+  font-weight: 400;
+}
+.E:hover {
+  color: #00b39b;
+  cursor: pointer;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  margin-left: 20px;
+}
+.card0 {
+  border-radius: 10px;
+  padding: 2em 2em 0;
+
+  height: 345px;
+
+  background-color: #00ccb1;
+  width: 35%;
+  margin: 45px;
+}
+.card2 {
+  border-radius: 10px;
+  padding: 2em 2em 0;
+
+  height: 345px;
+  width: 35%;
+  margin: 45px;
+  background-color: #3d83df;
+}
+.card3 {
+  border-radius: 10px;
+  padding: 2em 2em 0;
+
+  height: 345px;
+  width: 35%;
+  margin: 45px;
+  background-color: #1b2734;
+}
+
+.p1 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+main h1 {
+  text-align: center;
+  font-size: 200%;
+  color: rgb(12, 192, 24);
+}
+
+.p2 {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  color: #ffff;
+  width: 33%;
+}
+.m1,
+.m2 {
+  width: 12%;
+}
+.m3 {
+  width: 12%;
+}
+.s1,
+.s2 {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0 2em 0 0;
+  -webkit-appearance: none;
+  outline: 0;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+select {
+  color: #ffff;
+}
+option {
+  background-color: #1b2734;
+}
+.f1 {
+  font-size: 24px;
+}
+.t1 {
+  font-size: 26px;
+}
+.h7 {
+  font-size: 24px;
+  color: #00b39b;
+}
+.icons {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 0;
+  list-style: none;
+  width: 67%;
+  margin-left: 15%;
+}
+.sec {
+  background: #e5faf8;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 204, 177, 0.01) 5%,
+    rgba(61, 199, 223, 0.1)
+  );
+  padding: 1.875em 0 0.625em;
+  overflow: hidden;
+  margin: 3.125rem auto 5.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.sec img {
+  width: 13%;
+}
